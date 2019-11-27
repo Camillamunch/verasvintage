@@ -143,12 +143,9 @@
 
 /* ------------------- KALENDER -------------------- */
 
-@import url(https://fonts.googleapis.com/css?family=Fjalla+One:400|Roboto:400,400italic,700);
-
-
 .jzdbox1 {
   width:315px;
-  background: #c77b6e;
+  background:#332f2e;
   border-radius:5px;
   overflow:hidden;
   display:block;
@@ -169,7 +166,7 @@
 }
 
 .jzdcalt {
-  font:18px 'Roboto';
+  font:18px 'lora' serif;
   font-weight:700;
   color:#f7f3eb;
   display:block;
@@ -180,7 +177,7 @@
 }
 
 .jzdcal span {
-  font:11px 'Roboto';
+  font:11px 'lora' serif;
   font-weight:400;
   color:#f7f3eb;
   text-align:center;
@@ -205,7 +202,7 @@
 
 span[data-title]:hover:after,
 div[data-title]:hover:after {
-  font:11px 'Roboto';
+  font:11px 'lora' serif;
   font-weight:400;
   content:attr(data-title);
   position:absolute;
